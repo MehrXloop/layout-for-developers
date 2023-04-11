@@ -15,16 +15,20 @@ nav {
     border: 3px solid #e62e2d;
     display: flex;
     justify-content: space-around;
+    height: 90vh;
 }
 
 .Left {
     border: 3px solid #aefd38;
+    flex-grow: 1;
 }
 
 .Center {
     border: 3px solid #1f02ff;
+    flex-grow: 4;
 }
 
 .Right {
     border: 3px solid #fdff0f;
+    flex-grow: 1;
 }
