@@ -3,13 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 nav {
-    height: 10vh;
     color: #0b1a3e;
     border: 3px solid #0b1a3e;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLeft{
+    display: flex;
+    align-items: center;
+}
+.fa-earth-europe{
+    font-size: 50px;
 }
 
+.navLeft p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.navRight{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
 .Content {
     color: #0b1a3e;
     border: 3px solid #e62e2d;
