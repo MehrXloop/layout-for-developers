@@ -21,17 +21,36 @@ nav {
 .Left {
     border: 3px solid #aefd38;
     width: 20%;
+    padding: 1% 2%;
 }
 .placeholder-left,.placeholder-center{
     display: flex;
     align-items: center;
+    margin: 4%;
+    justify-content: space-between;
 }
 .Center {
     border: 3px solid #1f02ff;
     width: 60%;
 }
-
+.Center p{
+    padding: 0 2%;
+}
 .Right {
     border: 3px solid #fdff0f;
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 2%;
+} 
+.Right div{
+    margin:6% 0;
+}
+.icon {
+    font-size: 2em;
+
+}
+img{
+    border-radius: 10px;
 }
